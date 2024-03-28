@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import Admin from "./Pages/Admin/Admin";
 import ClaimFront from "./Pages/claim/ClaimFront";
 import ClaimForm from "./Pages/claim/ClaimForm";
+import Renew from "./Pages/Renewal/renew";
 function App() {
   return (
     <Routes>
@@ -16,6 +17,7 @@ function App() {
       <Route path="/admin" element={<Admin />} />
       <Route path="/claim" element={<ClaimFront />} />
       <Route path="/claim form" element={<ClaimForm />} />
+      <Route path="/Renew" element={<Renew />} />
     </Routes>
   );
 }
