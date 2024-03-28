@@ -1,13 +1,13 @@
-import { NavBar } from "../../components/NavBar";
+
 import { Footer } from "../../components/Footer";
+import NavBar from "../../components/NavBar";
+import HorizontalCard from "./renewalcard1";
 
 const Renew = () => {
     return (
         <div>
             <NavBar />
-            <h1 className=" text-center font-bold text-red-700">
-                Renwal
-            </h1>
+            <HorizontalCard />
             <Footer />
         </div>
     );

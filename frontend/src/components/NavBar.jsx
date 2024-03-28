@@ -4,8 +4,11 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 const LoginButton = () => {
   // Your login button component JSX
   return (
-    <button className="text-[32px] font-medium p-2   w-[150px] bg-[#fffff] cursor-pointer text-black border-none rounded-2xl shadow-lg ">
-      Login
+    <button
+      className="select-none rounded-lg border border-gray-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+      type="button"
+    >
+      Login/signup
     </button>
   );
 };

@@ -1,8 +1,8 @@
 import RegistrationForm from "../src/Pages/registration/RegistrationForm";
 import LoginFrom from "../src/Pages/registration/LoginFrom";
-import { ToastContainer, toast } from "react-toastify";
+
 import "react-toastify/dist/ReactToastify.css";
-import { Route, Routes, redirect } from "react-router-dom";
+import { Route, Routes, } from "react-router-dom";
 import Home from "./Pages/Home";
 import Admin from "./Pages/Admin/Admin";
 import ClaimFront from "./Pages/claim/ClaimFront";

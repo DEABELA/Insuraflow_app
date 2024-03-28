@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar from "../../components/NavBar";
+import NavbarWithMegaMenu from "../../components/NavBar";
 
 const ClaimFront = () => {
   return (
     <div>
-      <NavBar />
+      <NavbarWithMegaMenu />
       <div className=" mt-12 ">
         <div className="grid grid-cols-4">
           <div className=" col-span-2 grid px-36">
