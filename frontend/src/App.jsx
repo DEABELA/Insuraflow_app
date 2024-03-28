@@ -1,5 +1,5 @@
-import RegistrationForm from "./registration/RegistrationForm";
-import LoginFrom from "./registration/LoginFrom";
+import RegistrationForm from "../src/Pages/registration/RegistrationForm";
+import LoginFrom from "../src/Pages/registration/LoginFrom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Route, Routes, redirect } from "react-router-dom";
